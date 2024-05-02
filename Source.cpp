@@ -9,7 +9,7 @@ void countWordsAndChars(const string& filename, int& wordCount, int& charCount) 
     if (!file.is_open()) {
         cout << "Unable to open file " << filename << endl;
         return;
-    }
+    } 
 
     string word;
     wordCount = 0;

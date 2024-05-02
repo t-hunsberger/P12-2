@@ -11,7 +11,7 @@ void countWordsAndChars(const string& filename, int& wordCount, int& charCount) 
         return;
     } 
 
-    string word;
+    string word; 
     wordCount = 0;
     charCount = 0;
 
